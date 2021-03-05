@@ -3,7 +3,7 @@ var person = {
     sayHello : function(){
         console.log(`Hello! My name is ${this.name}`);
     }
-}
+};
 
 console.log(typeof person);
 person.sayHello();
