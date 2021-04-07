@@ -25,13 +25,13 @@ console.log(Object.entries(dictionary));
 2: (2) ["보", "-284px"]
 */
 
-var find = Object.entries(dictionary).find(function (v) {
-    console.log(v);
+var find = Object.entries(dictionary).find(function (v) { //  (배열.find)는 반복문이지만 원하는 것을 찾으면 (return = true) 면 멈춥니다. 
+    console.log(v);                                       //  Object.entries 는 객체를 2차원 배열로
     return v[0] === '바위';
 })
 
 console.log(find);
-// 배열.find는 반복문이지만 원하는 것을 찾으면 (return = true) 면 멈춥니다. 
+
 
 
 // 1:N 의 경우
