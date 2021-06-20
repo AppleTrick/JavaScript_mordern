@@ -12,3 +12,4 @@ console.log(arr2);
 
 const arr3 = Array.from({0:'a',1:'b',length:2})
 console.log(arr3);
+//[ 'a', 'b' ]
