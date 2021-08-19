@@ -10,9 +10,11 @@ console.log(Object.getOwnPropertyDescriptors(person));
 
 person.age = 20;
 console.log(person);
+//추가 불가능
 
 delete person.name;
 console.log(person);
+//삭제 불가능
 
 person.name = 'Kim'
 console.log(person);
